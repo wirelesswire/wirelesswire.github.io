@@ -1,0 +1,91 @@
+body{
+}
+#allwrapper{
+    background-color: black;
+}
+#wrap{
+    height:calc( 75vh + 8px);
+}
+#left-bar{
+    background-color: black;
+}
+#main-thing{
+    background-color: #14171A;
+    color: white;
+    border-radius: 25px;
+    padding: 0;
+}
+// #main-thing div{
+//      border: 1px solid #FFFFFF1A;
+// }
+#main-thing li {
+    font-weight: 100;
+    margin: 6px;
+}
+#we-hiring{
+    color: white;
+    background-color: black;
+
+}
+.position{
+    padding: 10px;
+    font-size: 17px;
+    border-top: 1px solid #2B2E30;
+}
+.position:nth-child(1){
+    font-weight: bold;
+    color: #fff;
+}
+#contact-us{
+    position: fixed;
+    padding: 10px;
+
+    //  border: 1px solid #FFFFFF1A;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#contact{
+    color: black;
+    background: linear-gradient(156deg, rgba(129,237,185,1) 33%, rgba(194,240,237,1) 74%, rgba(255,255,255,1) 100%);
+    border: none;
+    // border: 1px solid #FFFFFF1A;
+
+    
+}
+#contact-left , #contact-right{
+    flex: 1;
+    text-align: left;
+    font-size: 13px;
+    border-top: 1px solid #FFFFFF1A;
+
+    // bottom: 0;
+}
+#contact-right{
+text-align: center;
+font-weight: bold;
+color: black;
+border-left: 1px solid #FFFFFF1A;
+
+}
+#contact-left a {
+color: #81EDBA;
+text-decoration: underline;
+
+}
+
+#img-container{
+    // border-top:none ;
+    // border-left:none ;
+// margin-right: 30px;
+border-right: 1px solid #FFFFFF1A;
+
+}
+#offer-details {
+    padding: 25px;
+    color: #CCCCCC!important;
+    position: relative;
+
+// flex :20;
+}
